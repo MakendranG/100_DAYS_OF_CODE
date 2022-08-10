@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n = int(input())
+
+i = 0
+    
+for i in range(n):
+    c = i * i
+    print(c)
+    i = i + 1
+    
