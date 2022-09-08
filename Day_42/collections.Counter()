@@ -1,0 +1,15 @@
+
+from collections import Counter
+
+int(input())
+S=map(int,input().split())
+S=Counter(S)
+money=0
+N=int(input())
+for i in range(N):
+    size,price=map(int,input().split())
+    if size in S and S[size]>0:
+        S[size]-=1
+        money+=price
+print(money)
+        
