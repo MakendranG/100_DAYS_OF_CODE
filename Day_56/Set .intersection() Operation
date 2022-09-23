@@ -1,0 +1,8 @@
+E = int(input())
+e= set(input().split())
+
+F = int(input())
+f= set(input().split())
+
+i=e&f
+print(len(i))
